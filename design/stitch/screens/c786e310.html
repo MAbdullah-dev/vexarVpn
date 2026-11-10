@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-on-surface": "#2c3039", "surface-container-high": "#262a33", "inverse-primary": "#006d41", "on-background": "#dfe2ee", "tertiary-fixed": "#c4e7ff", "background": "#0f131c", "outline-variant": "#3b4a3f", "error": "#ffb4ab", "surface-container": "#1c2028", "tertiary": "#c9e9ff", "inverse-surface": "#dfe2ee", "primary-container": "#00e58f", "surface-dim": "#0f131c", "surface-container-low": "#181c24", "surface-tint": "#00e38d", "tertiary-fixed-dim": "#7bd0ff", "outline": "#849588", "on-surface-variant": "#bacbbd", "surface-container-highest": "#31353e", "on-surface": "#dfe2ee", "surface": "#0f131c", "on-secondary-container": "#007238", "secondary-container": "#36ff8b", "primary-fixed": "#54ffaa", "primary": "#6dffb1", "surface-container-lowest": "#0a0e16", "on-secondary-fixed-variant": "#005227", "on-tertiary": "#00354a", "on-primary-container": "#006139", "surface-variant": "#31353e", "secondary-fixed-dim": "#00e476", "on-secondary": "#003919", "on-tertiary-fixed": "#001e2c", "on-tertiary-container": "#005a7b", "primary-fixed-dim": "#00e38d", "secondary": "#f5fff2", "on-tertiary-fixed-variant": "#004c69", "secondary-fixed": "#61ff97", "surface-bright": "#353942", "error-container": "#93000a", "on-primary-fixed-variant": "#005230", "on-primary-fixed": "#002110", "on-primary": "#003920", "on-error-container": "#ffdad6", "on-secondary-fixed": "#00210c", "on-error": "#690005", "tertiary-container": "#82d2ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "3rem", "margin": "1rem", "space-md": "1rem", "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-xs": "0.25rem", "space-xl": "2rem", "gutter": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem", "gutter-desktop": "2rem" }, "fontFamily": { "title-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "metric-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "metric-lg": ["Plus Jakarta Sans"] }, "fontSize": { "title-sm": ["16px", {"lineHeight": "22px", "fontWeight": "600"}], "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "display-lg": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "500"}], "label-md": ["13px", {"lineHeight": "18px", "fontWeight": "400"}], "metric-md": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "title-lg": ["22px", {"lineHeight": "28px", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "500"}], "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "400"}], "title-md": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "display-md": ["30px", {"lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "metric-lg": ["34px", {"lineHeight": "40px", "letterSpacing": "-0.03em", "fontWeight": "700"}] } } } };</script><style>@layer base{html,body{width:100vw;min-height:100vh;margin:0;padding:0;background-color:#0f131c;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen relative overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container"><div class="pointer-events-none fixed inset-0 z-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(0,229,143,0.12),rgba(15,19,28,0))]"></div><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_12px_32px_-8px_rgba(0,0,0,0.6)]"><div class="h-24 px-margin flex flex-col justify-between pb-space-sm"><div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm pt-space-xs"><span class="font-label-md text-label-md font-semibold text-on-surface tracking-wide">9:41</span><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[16px]">battery_full</span></div></div><div class="flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Guardian Net Shield Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADMu87KZLTQ5tKnm7QfzyaLTMahtVT9Rf2TVlMBe5p-kG2zsGsS0Pp6sTABFgUaJIPzaUNCaCCbQernaC-yI8vg3nTyG2zDlZqg87o762AkaMkByogRFBUs20wAML-zZ96GAIRieJerXGIt_QUP3GF2BLix-kWbf5Ck2KgEHkUNsr31WLQw4AxEPlcanGfzdDiifTULx1ze5cggIFMpBJiG3-WQGll8oMLVVK9jBCS"/><div class="flex flex-col"><div class="flex items-center gap-1.5"><span class="font-title-md text-title-md text-on-surface font-bold tracking-tight">Guardian Net</span><span class="h-2 w-2 rounded-full bg-primary-container shadow-[0_0_8px_#00e58f] animate-pulse"></span></div><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Servers</span></div></div><div class="flex items-center gap-space-sm"><div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-highest/80 text-primary-fixed font-label-sm text-label-sm font-bold shadow-[0_0_12px_rgba(0,229,143,0.2)]"><span class="material-symbols-outlined text-[14px]">workspace_premium</span><span>VIP</span></div><button class="relative w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-primary-container shadow-[0_0_6px_#00e58f]"></span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_0_10px_rgba(0,229,143,0.25)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXLeDDLUW7EC1_vjGvu5Isuj80nUXWO5sjsRDZfhC-nbp-R6XHczjIZnUhgZ7v_bFGxPplIi7BZVUVQFVMVVY90DfXETqaAIfvru-H42b9_hADkiBzTHT_Q7sUILKktR0HAwPfhYgtZqKlXeaG5jSJjegr_cWkAJOJ-T7xnV3MFi-JUC_Yj58rRTCEA4vH9PlqbVHuRsOJfdx8qPPivIsJgXaUEpbuXmKFDihV9esd"/></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-24 pb-28 bg-surface z-10 min-h-screen"><div class="flex flex-col w-full pb-6 space-y-5">
+<!-- Header Intro -->
+<section class="flex flex-col space-y-1">
+<div class="flex items-center justify-between">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Explore Servers</h1>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-primary-container shadow-[0_0_8px_#00e58f] animate-pulse"></span>
+<span>85 Countries</span>
+</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+      Find your fastest secure connection across 1,420+ encrypted relay nodes
+    </p>
+</section>
+<!-- Search & Filter Controls -->
+<section class="flex items-center gap-2.5">
+<div class="relative flex-1 flex items-center">
+<span class="material-symbols-outlined absolute left-4 text-outline pointer-events-none text-[20px]">search</span>
+<input class="w-full h-12 pl-11 pr-4 rounded-xl bg-surface-container text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container shadow-sm transition-all" id="server-search-input" placeholder="Search country or city..." type="text"/>
+</div>
+<button aria-label="Filter Options" class="h-12 w-12 flex items-center justify-center rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface-variant hover:text-on-surface active:scale-95 transition-all shadow-sm flex-shrink-0" id="filter-toggle-btn">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</section>
+<!-- Filter Chips (Horizontal Scroll) -->
+<section class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 -mx-margin px-margin">
+<button class="filter-chip px-4 py-2 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg font-bold shadow-[0_4px_16px_rgba(0,229,143,0.3)] transition-all flex items-center gap-1.5 whitespace-nowrap" data-filter="all">
+<span class="material-symbols-outlined text-[16px]">public</span>
+<span>All Servers</span>
+</button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-all flex items-center gap-1.5 whitespace-nowrap" data-filter="fastest">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>Fastest</span>
+</button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-all flex items-center gap-1.5 whitespace-nowrap" data-filter="streaming">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Streaming</span>
+</button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-all flex items-center gap-1.5 whitespace-nowrap" data-filter="gaming">
+<span class="material-symbols-outlined text-[16px]">sports_esports</span>
+<span>Gaming</span>
+</button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-all flex items-center gap-1.5 whitespace-nowrap" data-filter="p2p">
+<span class="material-symbols-outlined text-[16px]">swap_calls</span>
+<span>Dedicated IP</span>
+</button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg transition-all flex items-center gap-1.5 whitespace-nowrap" data-filter="fav">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span>Favorites</span>
+</button>
+</section>
+<!-- Smart Location Auto-Match Hero Banner -->
+<section class="relative overflow-hidden rounded-xl bg-surface-container-high p-4 shadow-[0_12px_32px_-8px_rgba(0,0,0,0.6)]">
+<!-- Subtle Emerald Ambient Aura -->
+<div class="pointer-events-none absolute -top-16 -right-16 w-44 h-44 rounded-full bg-primary/15 blur-3xl"></div>
+<div class="relative z-10 flex flex-col space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-primary-container/20 text-primary-fixed">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Smart Location Recommendation</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-lowest text-primary-fixed font-label-sm text-label-sm font-semibold">
+          17ms Latency
+        </span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-lowest flex items-center justify-center flex-shrink-0 shadow-inner">
+<img class="w-full h-full object-cover" data-alt="National flag circular icon of Germany with black, red and gold horizontal stripes, clean minimalist vector presentation on dark cybernetic UI canvas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNc9Yp_LLkY4okCW9p12iRvtHoWCVWxXl3Ime0btQpNWlKAgph01JMjLoyGcMQY4D9DcwrqyiO6qinprSKrEy_MWEX3KTT-384CNn3ifV4d4Dm-_2z4qgSPbbY5qfUaqCYW6B3qonHBRqWEazRgXfdPYMBJEm_rk1QAdsGz-eMa2JGIW2wHbM_cywpJB-Ew-gf8OXDIgVcZVvmBcm3LiQ3K9N5Oi4d1FQit2P-g28w"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface font-bold">Frankfurt, Germany</span>
+<span class="material-symbols-outlined text-primary-container text-[16px]">speed</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant">Optimum routing â€¢ 99% load efficiency</span>
+</div>
+</div>
+<button class="h-11 px-5 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg font-bold shadow-[0_4px_20px_rgba(0,229,143,0.35)] hover:brightness-110 active:scale-95 transition-all flex items-center gap-1.5 flex-shrink-0" onclick="handleQuickConnect('Frankfurt, Germany', '17ms')">
+<span class="material-symbols-outlined text-[18px]">power_settings_new</span>
+<span>Connect</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Recently Connected Section -->
+<section class="flex flex-col space-y-2.5">
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">history</span>
+<span class="font-title-sm text-title-sm text-on-surface">Recently Connected</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2 Sessions</span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<!-- Recent Card 1 -->
+<div class="group cursor-pointer rounded-xl bg-surface-container p-3 flex flex-col justify-between space-y-3 hover:bg-surface-container-high transition-all shadow-sm" onclick="handleQuickConnect('Frankfurt, Germany', '17ms')">
+<div class="flex items-start justify-between">
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Round flag avatar Germany modern minimal flag icon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsM3YkxQOy21YnwzdgNy11lkG2uf3NbMa_GhI_7dwJb3jNQG2NTWtpT89_1W0JbPIcRt_LacyDcQ_rEDGuPrTttaOV_1qvS2dX2Xzln9F_Jpd8FWKmYI6jy5sq2E4bpPOjZ0aasXZ1Ibe89bo8KR5cNSxAvmptO9_WP0j7PH3JYo06nDHdH9eN4BkprSR7jd1le6SC-fcVBNYxuCMjtHZp_M4rxRcHhLagmVryDrty"/>
+</div>
+<div class="flex items-center gap-1 text-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">signal_cellular_alt</span>
+<span>17 ms</span>
+</div>
+</div>
+<div>
+<p class="font-title-sm text-title-sm text-on-surface truncate">Frankfurt</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Germany</p>
+</div>
+</div>
+<!-- Recent Card 2 -->
+<div class="group cursor-pointer rounded-xl bg-surface-container p-3 flex flex-col justify-between space-y-3 hover:bg-surface-container-high transition-all shadow-sm" onclick="handleQuickConnect('Amsterdam, Netherlands', '22ms')">
+<div class="flex items-start justify-between">
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Round flag avatar Netherlands red white blue horizontal stripes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8Gx1AqPHeadNzPTwZ7_uNALxr8MM_-k9rBp9MYlO4ciE96KpmWJxEs24yEWdc1tKZuoyD489qR8RMfOM4evQPQFyrN8GZcOq8gTfrnfDAbOdOjFj3oZGao0jq3eWf3ojgkD2iC7bDYPYGLNwlDyzmKFnOaEYVSoZX1PFtkaaPyUF5e2kkDCFnXAjHImQ6KjcvPjIHXhB32-Zd-iSWAJAWdHnMwBuJjlDf6kzc232q"/>
+</div>
+<div class="flex items-center gap-1 text-tertiary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">signal_cellular_alt</span>
+<span>22 ms</span>
+</div>
+</div>
+<div>
+<p class="font-title-sm text-title-sm text-on-surface truncate">Amsterdam</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Netherlands</p>
+</div>
+</div>
+</div>
+</section>
+<!-- All Locations Grouped List -->
+<section class="flex flex-col space-y-2.5">
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">travel_explore</span>
+<span class="font-title-sm text-title-sm text-on-surface">Available Encrypted Nodes</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="server-count-label">6 Relays</span>
+</div>
+<div class="flex flex-col space-y-2" id="server-list-container">
+<!-- Item 1: Germany -->
+<div class="server-tile flex items-center justify-between p-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high active:scale-[0.99] transition-all cursor-pointer shadow-sm" data-city="frankfurt" data-country="germany" data-tags="streaming fastest">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Germany flag badge icon circular high resolution glowing UI asset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjaUw3r30IIq66I_wfp15pXdk6nRitcCzLfOZW1GcZ1sD1jLl-P-RK72thpSxcrmDirXqWmasw7iXIMXp2FJ_fK2CR8RPDwxnh12A6P9h_Fg4Z20J7_JAmEiV_4CYTRUhyLaXmLMVWDLNTzQIv5wRBjykGCuiXLZKyc8dyezuWVjAQ01m-c_BTxiVSzQ3k2DbMK-50xSk9bgwy1vbjR6LETAg3Wq4imHwAUh7WVSCJ"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold truncate">Germany</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-tertiary font-label-sm text-label-sm">Streaming</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">Frankfurt â€¢ Node DE-08</span>
+</div>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1 text-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span>
+<span>17 ms</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">12% Load</span>
+</div>
+<button aria-label="Add to Favorites" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-outline hover:text-secondary-fixed transition-colors" onclick="toggleFavorite(event, this)">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button aria-label="Connect Node" class="w-10 h-10 rounded-full bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-on-primary-container transition-all flex items-center justify-center" onclick="handleQuickConnect('Frankfurt, Germany', '17ms')">
+<span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+</button>
+</div>
+</div>
+<!-- Item 2: Netherlands -->
+<div class="server-tile flex items-center justify-between p-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high active:scale-[0.99] transition-all cursor-pointer shadow-sm" data-city="amsterdam" data-country="netherlands" data-tags="p2p fastest">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Netherlands flag circular token high contrast icon dark backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOtNkreXwcWvFszeH7RkITTTH8BsSCKnWd2c2bXZreOdffAvT5K7Dri8h34codls3CWgdrqvuNG-rGSOteuz1nlNII_5HhA1pen-74Uw1ol1bGK0NZjjGS7yloOX1sAxsZLrnbx87EBH-U2bMp_Ob24BAfYelaUTcoFr5MGEQXY7qyZT5M9XG1VKejwFAWLaI0eT38f-R4ztghpjQ-rhmauuxdgKqVIkM_VUPlOd28"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold truncate">Netherlands</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-secondary font-label-sm text-label-sm">P2P / Tor</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">Amsterdam â€¢ Node NL-03</span>
+</div>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1 text-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span>
+<span>22 ms</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">24% Load</span>
+</div>
+<button aria-label="Add to Favorites" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-secondary-fixed transition-colors" onclick="toggleFavorite(event, this)">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</button>
+<button aria-label="Connect Node" class="w-10 h-10 rounded-full bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-on-primary-container transition-all flex items-center justify-center" onclick="handleQuickConnect('Amsterdam, Netherlands', '22ms')">
+<span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+</button>
+</div>
+</div>
+<!-- Item 3: United States (VIP 10Gbps) -->
+<div class="server-tile flex items-center justify-between p-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high active:scale-[0.99] transition-all cursor-pointer shadow-sm" data-city="new york" data-country="united states" data-tags="streaming">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="United States stars and stripes flag token round cyber style design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDC5JQe-Tc8OS-sjPumqVMKO9MbEGz6mn7LtywAlmYOkEKDirewQunygVL8gI4MRAwiLPV110wPW3KAj0x022FNQ75BbPz_pLFJca9n_MwZ72ZAuD5Vp6Y6LG9flawBpQ_8Ara9WmqwdQxnFlIxnnsu_X3Bkmwhg49BmJBnqxDMDyF6F-2GL_59I2LC2sWmYEtmlKNZCK0irRwi0BUlob6UV7AorDtK1CMpTdg30Vgy"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold truncate">United States</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed/20 text-primary-fixed font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">workspace_premium</span>
+<span>VIP 10G</span>
+</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">New York â€¢ Node US-EAST-01</span>
+</div>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1 text-tertiary-fixed-dim font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span>
+<span>84 ms</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">38% Load</span>
+</div>
+<button aria-label="Add to Favorites" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-outline hover:text-secondary-fixed transition-colors" onclick="toggleFavorite(event, this)">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button aria-label="Connect Node" class="w-10 h-10 rounded-full bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-on-primary-container transition-all flex items-center justify-center" onclick="handleQuickConnect('New York, United States', '84ms')">
+<span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+</button>
+</div>
+</div>
+<!-- Item 4: United Kingdom -->
+<div class="server-tile flex items-center justify-between p-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high active:scale-[0.99] transition-all cursor-pointer shadow-sm" data-city="london" data-country="united kingdom" data-tags="fastest streaming">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="United Kingdom Union Jack circular emblem glossy dark aesthetic icon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr_PGnIXHUOm3vvP1S6a2eerMqQRjA0z4Q6kuZW8FmVVx_uNilMzLBRMXYL9TshI9UG8vvUy76027KrhJnXrKV4Cam9-fkqLxI0ctaJ2rXiQBVK4QOV61jBCd4A5BnB87ugRv3_sE9oVcHVXAvabg_DC-zdFX0Wk1vvj2wpK8i5C37wPXLzrjd3nBLv1eKjJoPwtO-cZuqc0eUk-1P0hmhbWEVFxzjA5c6WYKHGyV5"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold truncate">United Kingdom</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-tertiary font-label-sm text-label-sm">General</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">London â€¢ Node UK-LDN-04</span>
+</div>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1 text-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span>
+<span>31 ms</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">19% Load</span>
+</div>
+<button aria-label="Add to Favorites" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-outline hover:text-secondary-fixed transition-colors" onclick="toggleFavorite(event, this)">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button aria-label="Connect Node" class="w-10 h-10 rounded-full bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-on-primary-container transition-all flex items-center justify-center" onclick="handleQuickConnect('London, United Kingdom', '31ms')">
+<span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+</button>
+</div>
+</div>
+<!-- Item 5: Japan (Gaming) -->
+<div class="server-tile flex items-center justify-between p-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high active:scale-[0.99] transition-all cursor-pointer shadow-sm" data-city="tokyo" data-country="japan" data-tags="gaming">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Japan red sun on white minimalist round emblem high quality vector" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBM7aJ-0auFsrg-tYdIVHTMceLsQYn540omUgw4vEHlKnA-NUE5ao8FhUMkmfBkEpi2gQ6IkWtM8b23pkJr4u-uHJ6EwLQQe_jeqD-tOflVbXeiKttGs_GUqejx3mKpDBnVi9B2RmaMbpPbXBs1KtduruMhhO7t9muvWlBxQjZWgay95eAJgM8ftDJYg-1RWkeTyZgsjhiZmhXCVFpNnlw62Rn_34IR0jYi5lhHCo9v"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold truncate">Japan</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-secondary-fixed font-label-sm text-label-sm">Low Jitter</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">Tokyo â€¢ Node JP-TYO-09</span>
+</div>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">signal_cellular_alt_2_bar</span>
+<span>142 ms</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">54% Load</span>
+</div>
+<button aria-label="Add to Favorites" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-outline hover:text-secondary-fixed transition-colors" onclick="toggleFavorite(event, this)">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button aria-label="Connect Node" class="w-10 h-10 rounded-full bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-on-primary-container transition-all flex items-center justify-center" onclick="handleQuickConnect('Tokyo, Japan', '142ms')">
+<span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+</button>
+</div>
+</div>
+<!-- Item 6: Singapore (Gaming) -->
+<div class="server-tile flex items-center justify-between p-3.5 rounded-xl bg-surface-container hover:bg-surface-container-high active:scale-[0.99] transition-all cursor-pointer shadow-sm" data-city="singapore" data-country="singapore" data-tags="gaming fastest">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-10 h-10 rounded-full overflow-hidden bg-surface-container-lowest flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Singapore national flag circle badge icon red white crescent and stars" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTXf7hX1sMZKcFE9_D1ZdRPGD6PHfcgWa2v7-k7xugp4A2_p5juNkZG1sAVNnnGeV8gYF0nzm_-H69rLhp5uvLlqvrVY0xZ7u132_sr9WqAYnz3fbjp8Lu-JVz1-exP95BmoG1v0nzEHm4mxquiD3q1q2qkxACwidNogyMUzf53wVFNpyRcCiYkRHxdefncCfdg5HmUUxIs1lTL3LVlKaSD_6mKnoVxu-vTj96oyLs"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold truncate">Singapore</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed/20 text-primary-fixed font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">workspace_premium</span>
+<span>VIP</span>
+</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant truncate">Singapore â€¢ Node SG-02</span>
+</div>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<div class="flex flex-col items-end">
+<div class="flex items-center gap-1 text-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span>
+<span>48 ms</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">28% Load</span>
+</div>
+<button aria-label="Add to Favorites" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-outline hover:text-secondary-fixed transition-colors" onclick="toggleFavorite(event, this)">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button aria-label="Connect Node" class="w-10 h-10 rounded-full bg-primary-container/15 hover:bg-primary-container text-primary-container hover:text-on-primary-container transition-all flex items-center justify-center" onclick="handleQuickConnect('Singapore, Singapore', '48ms')">
+<span class="material-symbols-outlined text-[20px]">power_settings_new</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Toast Notification -->
+<div class="fixed bottom-24 left-4 right-4 z-50 transform translate-y-24 opacity-0 pointer-events-none transition-all duration-300 ease-out" id="connect-toast">
+<div class="rounded-xl bg-surface-container-highest/95 backdrop-blur-xl p-4 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.8)] flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+<span class="material-symbols-outlined text-[18px]">shield</span>
+</span>
+<div class="flex flex-col">
+<span class="font-title-sm text-title-sm text-on-surface" id="toast-title">Encrypted Tunnel Active</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="toast-subtitle">Connected via Frankfurt (17ms)</span>
+</div>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1" onclick="dismissToast()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  function handleQuickConnect(nodeName, latency) {
+    const toast = document.getElementById('connect-toast');
+    const toastTitle = document.getElementById('toast-title');
+    const toastSubtitle = document.getElementById('toast-subtitle');
+    
+    toastTitle.textContent = "Switching Relay Tunnel...";
+    toastSubtitle.textContent = `Connecting to ${nodeName} (${latency})`;
+    
+    toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toastTitle.textContent = "Tunnel Secured & Active";
+      toastSubtitle.textContent = `Encrypted via ${nodeName} â€¢ AES-256-GCM`;
+    }, 900);
+
+    setTimeout(() => {
+      dismissToast();
+    }, 4500);
+  }
+
+  function dismissToast() {
+    const toast = document.getElementById('connect-toast');
+    if (toast) {
+      toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }
+  }
+
+  function toggleFavorite(e, btn) {
+    e.stopPropagation();
+    const icon = btn.querySelector('.material-symbols-outlined');
+    const isFilled = icon.style.fontVariationSettings?.includes("'FILL' 1");
+    if (isFilled) {
+      icon.style.fontVariationSettings = "'FILL' 0";
+      btn.classList.remove('text-secondary-fixed');
+      btn.classList.add('text-outline');
+    } else {
+      icon.style.fontVariationSettings = "'FILL' 1";
+      btn.classList.add('text-secondary-fixed');
+      btn.classList.remove('text-outline');
+    }
+  }
+
+  // Interactive Live Filter & Search Logic
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('server-search-input');
+    const filterChips = document.querySelectorAll('.filter-chip');
+    const serverTiles = document.querySelectorAll('.server-tile');
+    const countLabel = document.getElementById('server-count-label');
+
+    let activeFilter = 'all';
+    let searchQuery = '';
+
+    function applyFilters() {
+      let visibleCount = 0;
+      serverTiles.forEach(tile => {
+        const country = tile.getAttribute('data-country') || '';
+        const city = tile.getAttribute('data-city') || '';
+        const tags = tile.getAttribute('data-tags') || '';
+        const isFav = tile.querySelector('.text-secondary-fixed') !== null;
+
+        const matchesSearch = !searchQuery || 
+          country.includes(searchQuery) || 
+          city.includes(searchQuery);
+
+        let matchesChip = true;
+        if (activeFilter === 'fastest') matchesChip = tags.includes('fastest');
+        else if (activeFilter === 'streaming') matchesChip = tags.includes('streaming');
+        else if (activeFilter === 'gaming') matchesChip = tags.includes('gaming');
+        else if (activeFilter === 'p2p') matchesChip = tags.includes('p2p');
+        else if (activeFilter === 'fav') matchesChip = isFav;
+
+        if (matchesSearch && matchesChip) {
+          tile.classList.remove('hidden');
+          tile.classList.add('flex');
+          visibleCount++;
+        } else {
+          tile.classList.remove('flex');
+          tile.classList.add('hidden');
+        }
+      });
+      if (countLabel) {
+        countLabel.textContent = `${visibleCount} Relays`;
+      }
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.toLowerCase().trim();
+        applyFilters();
+      });
+    }
+
+    filterChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        filterChips.forEach(c => {
+          c.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-bold', 'shadow-[0_4px_16px_rgba(0,229,143,0.3)]');
+          c.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        chip.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        chip.classList.add('bg-primary-container', 'text-on-primary-container', 'font-bold', 'shadow-[0_4px_16px_rgba(0,229,143,0.3)]');
+        activeFilter = chip.getAttribute('data-filter') || 'all';
+        applyFilters();
+      });
+    });
+  });
+</script></main><div class="fixed bottom-0 inset-x-0 z-50 pointer-events-none pb-safe px-margin"><div class="pointer-events-auto mx-auto max-w-md mb-space-sm"><nav class="h-16 px-space-sm rounded-full bg-surface-container-low/90 backdrop-blur-2xl shadow-[0_20px_40px_-10px_rgba(0,0,0,0.8)] flex items-center justify-between" data-active-classes="bg-primary-container/15 text-primary-container shadow-[0_0_20px_rgba(0,229,143,0.25)]"><a class="flex flex-col items-center justify-center flex-1 h-12 rounded-full text-outline hover:text-on-surface transition-all gap-0.5" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">shield</span><span class="font-label-sm text-label-sm">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-12 rounded-full transition-all gap-0.5 bg-primary-container/15 text-primary-container shadow-[0_0_20px_rgba(0,229,143,0.25)]" data-path="servers" href="#"><span class="material-symbols-outlined text-[22px]">public</span><span class="font-label-sm text-label-sm">Servers</span></a><a class="flex flex-col items-center justify-center flex-1 h-12 rounded-full text-outline hover:text-on-surface transition-all gap-0.5" data-path="speed-test" href="#"><span class="material-symbols-outlined text-[22px]">speed</span><span class="font-label-sm text-label-sm">Speed</span></a><a class="flex flex-col items-center justify-center flex-1 h-12 rounded-full text-outline hover:text-on-surface transition-all gap-0.5" data-path="profile" href="#"><span class="material-symbols-outlined text-[22px]">shield_person</span><span class="font-label-sm text-label-sm">Profile</span></a></nav></div></div></body></html>

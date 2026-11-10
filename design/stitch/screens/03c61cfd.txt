@@ -1,0 +1,29 @@
+9:41 signal_cellular_4_bar wifi battery_full
+arrow_back_ios_new
+GETTING STARTED Â· 1 OF 3
+Skip
+verified_user
+GUARDIAN
+PROTECTED
+lock
+256-BIT
+TLS 1.3
+dns
+GATEWAY
+10Gbps
+ENC: CHACHA20-POLY1305
+ZERO LOGS
+A more private way to connect
+A VPN encrypts traffic between your device and the VPN server, helping protect your connection on networks you use.
+vpn_key
+Encrypted connection
+A secure tunnel helps protect data traveling between your device and the VPN server.
+public_off
+More private browsing
+Websites generally see the VPN server's public IP address instead of your network's public IP address.
+wifi_protected_setup
+Confidence on public Wi-Fi
+Add a layer of connection protection when using shared or open public networks.
+Continue
+arrow_forward
+Skip introduction

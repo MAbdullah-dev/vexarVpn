@@ -1,0 +1,35 @@
+9:41 signal_cellular_4_bar wifi battery_full
+arrow_back
+Getting Started Â· 3 of 3
+vpn_key
+ENCRYPTED
+wifi
+battery_full
+security
+vpn_key
+V-TUNNEL 256
+One permission to connect securely
+Android requires your approval before Guardian Net can create an encrypted VPN tunnel on this device.
+graph_4
+Why Android asks
+This permission allows the app to establish a VPN tunnel and route network traffic through the selected server with zero logging.
+tune
+You're in control
+You can disconnect anytime from the quick status tray or revoke access directly in Android System Settings.
+info
+System Requirement
+Android will display its own native VPN request dialog next. Review it before tapping OK .
+shield
+CONTINUE TO ANDROID PERMISSION
+Not now
+You can set up your VPN connection later from Settings.
+vpn_key
+Connection request
+Android System Â· Guardian Net
+Guardian Net wants to set up a VPN connection that allows it to monitor network traffic. Only accept if you trust the source.
+verified_user
+Encrypted with WireGuardÂ® Protocol
+Cancel
+OK
+check_circle
+VPN permission granted!

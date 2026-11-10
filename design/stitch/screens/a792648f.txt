@@ -1,0 +1,24 @@
+9:41 signal_cellular_4_bar wifi battery_full
+arrow_back
+GETTING STARTED Â· 2 OF 3
+ENCRYPTION ENGINE
+Your privacy deserves clarity
+Understand how your VPN connection works and what information the service may process.
+verified_user
+What your VPN does
+Encrypts traffic between your device and the VPN server while connected.
+gpp_maybe
+What your VPN does not do
+A VPN does not make you completely anonymous or protect you from every online risk.
+policy
+How your data is handled
+Review the Privacy Policy for information about data collection, use, retention, and your choices.
+READ FULL PRIVACY POLICY
+arrow_forward
+info
+Learn more about VPN privacy
+expand_more
+When connected, your ISP and local network eavesdroppers cannot inspect your destination URLs or payload data. However, authenticating into personal accounts or approving browser telemetry still identifies you to third-party web apps.
+Provider Transparency
+GUARDIAN NET enforces a strict no-activity-log protocol audited independently by external security labs.
+CONTINUE

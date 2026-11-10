@@ -1,0 +1,63 @@
+9:41 signal_cellular_alt wifi battery_full
+Guardian Net
+Speed Test
+workspace_premium VIP
+notifications
+Network Performance
+Encrypted Node
+Real-time telemetry and tunnel throughput diagnostics
+dns
+Frankfurt DE #04
+BBR v3
+â€¢
+WireGuardÂ®
+84.6
+Mbps
+Download Speed
+verified
+Sample Telemetry
+Tunnel MTU
+1420 Bytes
+Bandwidth Peak
+112.4 Mbps
+Download
+arrow_downward
+84.6
+Mbps
+Fast stable
+Upload
+arrow_upward
+24.8
+Mbps
+Symmetric OK
+Latency
+graphic_eq
+17
+ms ping
+Jitter: 1.2ms
+Loss: 0.0%
+24-Hour Throughput
+Continuous telemetry log
+Day
+Week
+Month
+insights
+Frankfurt #04 â€¢ 98.4 Mbps peak
+14:20 UTC
+00:00
+06:00
+12:00
+18:00
+Now
+Download (Peak 98.4)
+Upload (Avg 24.8)
+security_update_good
+Zero-Knowledge Tunnel
+DNS & WebRTC Leaks: None detected
+check_circle
+speed
+START SPEED TEST
+verified_user
+Run Comprehensive Leak Audit
+arrow_forward
+shield Home public Servers speed Speed shield_person Profile

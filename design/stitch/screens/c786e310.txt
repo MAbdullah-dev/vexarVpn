@@ -1,0 +1,99 @@
+9:41 signal_cellular_alt wifi battery_full
+Guardian Net
+Servers
+workspace_premium VIP
+notifications
+Explore Servers
+85 Countries
+Find your fastest secure connection across 1,420+ encrypted relay nodes
+search
+tune
+public
+All Servers
+bolt
+Fastest
+play_circle
+Streaming
+sports_esports
+Gaming
+swap_calls
+Dedicated IP
+star
+Favorites
+verified
+Smart Location Recommendation
+17ms Latency
+Frankfurt, Germany
+speed
+Optimum routing â€¢ 99% load efficiency
+power_settings_new
+Connect
+history
+Recently Connected
+2 Sessions
+signal_cellular_alt
+17 ms
+Frankfurt
+Germany
+signal_cellular_alt
+22 ms
+Amsterdam
+Netherlands
+travel_explore
+Available Encrypted Nodes
+6 Relays
+Germany
+Streaming
+Frankfurt â€¢ Node DE-08
+signal_cellular_alt
+17 ms
+12% Load
+star
+power_settings_new
+Netherlands
+P2P / Tor
+Amsterdam â€¢ Node NL-03
+signal_cellular_alt
+22 ms
+24% Load
+star
+power_settings_new
+United States
+workspace_premium
+VIP 10G
+New York â€¢ Node US-EAST-01
+signal_cellular_alt
+84 ms
+38% Load
+star
+power_settings_new
+United Kingdom
+General
+London â€¢ Node UK-LDN-04
+signal_cellular_alt
+31 ms
+19% Load
+star
+power_settings_new
+Japan
+Low Jitter
+Tokyo â€¢ Node JP-TYO-09
+signal_cellular_alt_2_bar
+142 ms
+54% Load
+star
+power_settings_new
+Singapore
+workspace_premium
+VIP
+Singapore â€¢ Node SG-02
+signal_cellular_alt
+48 ms
+28% Load
+star
+power_settings_new
+shield
+Encrypted Tunnel Active
+Connected via Frankfurt (17ms)
+close
+shield Home public Servers speed Speed shield_person Profile

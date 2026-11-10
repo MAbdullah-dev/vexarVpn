@@ -1,0 +1,76 @@
+9:41 signal_cellular_alt wifi battery_full
+Guardian Net
+Profile
+workspace_premium VIP
+notifications
+CyberSpecialist #8402
+workspace_premium
+VIP SUBSCRIBER
+Manage
+open_in_new
+calendar_clock Renews
+341 Days
+devices Devices
+4 / 10 Active
+verified_user Cypher
+ChaCha20
+security
+Core Cyber Defense
+All Shields Active
+sync_saved_locally
+Auto-Connect Shield
+Always-on protection on untrusted Wi-Fi hotspots
+power_settings_new
+System Kill Switch
+STRICT
+Drop all internet traffic if tunnel disconnects unexpectedly
+call_split
+Split Tunneling
+Bypass tunnel for selected local banking apps
+4 Apps
+chevron_right
+alt_route
+VPN Protocol
+FASTEST
+WireGuardÂ® (Kernel Accelerated)
+UDP
+chevron_right
+dns
+Private DNS Resolver
+Cloudflare 1.1.1.1 + ZeroLog Enforced
+edit
+shield_lock
+Threat & Tracker Blocker
+Block malicious hostnames, phishing & cross-site trackers
+wifi_tethering
+Trusted Wi-Fi Networks
+Home_5G, Office_Secure
+2 Saved
+chevron_right
+tune
+Preferences & Privacy
+dark_mode
+App Theme
+Obsidian Dark (Active)
+chevron_right
+translate
+Language
+English (United States)
+chevron_right
+analytics
+Diagnostic Telemetry
+verified
+Client-Side Only (Zero Cloud Logging)
+chevron_right
+support_agent
+Help & Support
+24/7 Encrypted Live Desk
+chevron_right
+info
+About Guardian Net
+v4.2.0 â€¢ Build 2026.04
+chevron_right
+logout
+Log Out & Reset Device Keys
+Wipes local cryptographic keyrings and ephemeral cached configs.
+shield Home public Servers speed Speed shield_person Profile

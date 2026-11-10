@@ -1,0 +1,64 @@
+9:41 signal_cellular_alt wifi battery_full
+Guardian Net
+Home
+workspace_premium VIP
+notifications
+Connected & Secure
+verified_user
+Encrypted tunnel active via
+WireGuardÂ® Protocol
+power_settings_new
+ON
+timer
+00:14:32
+Secure Session Duration
+Germany â€” Frankfurt
+bolt
+Demo IP: 198.51.100.24
+17ms
+lock
+WireGuard â€¢ ChaCha20
+Change
+swap_horiz
+arrow_downward
+Download
+84.6
+Mbps
+arrow_upward
+Upload
+24.8
+Mbps
+network_ping
+Ping
+17
+ms
+Optimal
+hub
+Recommended Fast Servers
+See All (120+)
+chevron_right
+Germany
+Active
+Frankfurt #04
+signal_cellular_alt
+17 ms
+4K Streaming
+check_circle
+Connected
+Netherlands
+Fastest
+Amsterdam #12
+signal_cellular_alt
+23 ms
+P2P Ultra
+Switch
+arrow_forward
+Singapore
+Low Ping
+Singapore #02
+signal_cellular_alt
+48 ms
+Gaming VIP
+Switch
+arrow_forward
+shield Home public Servers speed Speed shield_person Profile
